@@ -1,0 +1,6 @@
+Model,Best params,CV ROC-AUC,Folds,Time (s)
+Logistic Regression,{'clf__C': 0.001},0.8112,5,19
+KNN,"{'clf__n_neighbors': 201, 'clf__weights': 'distance'}",0.6951,5,53
+Decision Tree,"{'max_depth': 3, 'min_samples_leaf': 200}",0.7738,5,1
+Random Forest,"{'max_depth': 6, 'min_samples_leaf': 100}",0.8042,5,54
+SVM,{'clf__C': 0.03},0.7997,3,63

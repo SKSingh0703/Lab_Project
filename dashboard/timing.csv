@@ -1,0 +1,6 @@
+Model,Train time (s),Predict time (s)
+Logistic Regression,0.29,0.02
+KNN,3.74,0.553
+Decision Tree,0.03,0.002
+Random Forest,1.05,0.06
+SVM,15.39,6.038
